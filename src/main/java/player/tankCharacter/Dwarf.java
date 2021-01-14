@@ -11,5 +11,8 @@ public class Dwarf extends Tank{
     }
 
 
+    @Override
+    public void attack() {
 
+    }
 }
