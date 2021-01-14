@@ -80,11 +80,11 @@ public class DwarfTest {
         assertEquals("Pants", dwarf.getArmour().getName());
     }
 
-    @Test
-    public void dwarfCanAttack(){
-        dwarf.attack(troll.setHealth(dwarf.getWeapon().getValue()));
-        assertEquals(50, troll.getHealth());
-    }
+//    @Test
+//    public void dwarfCanAttack(){
+//        dwarf.attack(troll.setHealth(dwarf.getWeapon().getValue()));
+//        assertEquals(50, troll.getHealth());
+//    }
 
 
 

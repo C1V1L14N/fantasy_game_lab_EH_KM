@@ -6,6 +6,9 @@ import tools.Weapon;
 
 public abstract class Tank extends Player implements IFight {
 
+    private Weapon weapon;
+    private Armour armour;
+
     public Tank(String name, int health, Weapon weapon, Armour armour) {
         super(name, health);
         this.weapon = weapon;
